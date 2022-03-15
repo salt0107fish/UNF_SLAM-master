@@ -8,8 +8,6 @@ Performance UNLC features:
 
 ![image](pic/ulnc.gif)
 
-## Related Publications
-
 # Dependencies
 
 ## C++14 or C++0x Compiler
@@ -46,9 +44,17 @@ cd ULNC_SLAM-master
 ```
 Make sure to edit `build.sh` pointing to your local libtorch installation. Edit `run_ulnc.sh` to check out how to run with ULNC_SLAM.
 
-#Result
+# Result
 The ORB-SLAM2 localization result in KITTI05 is
 ![image](pic/orb.png)
 
 The ULNC-SLAM localization result in KITTI05 is
 ![image](pic/ulnc.png)
+
+RPE in Meters for KITTI 05 is:
+
+  Configuration | max  | mean | median | min | rmse | sse | std
+ --------------- | ----- | ------  | ------ | ------ | ------ | ------ | ------
+ ORB-SLAM2  | 5.864444 | 0.059092 | 0.035320 | 0.002328 | 0.202411 | 74.852742 | 0.193593    
+ UNLC-SLAM  | 10.885378 | 0.0107923 | 0.081827 | 0.003509 | 0.352939 | 134.779983 | 0.336033 
+
