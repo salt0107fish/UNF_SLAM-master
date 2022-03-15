@@ -6,9 +6,7 @@ ULNC-SLAM is an abbreviation of Unsupervised Learning Network with Confidence SL
 ## Example
 Performance UNLC features:
 
-GCNv2:
-
-![](pic/ulnc.gif)
+![image](pic/ulnc.gif)
 
 ## Related Publications
 
@@ -50,7 +48,7 @@ Make sure to edit `build.sh` pointing to your local libtorch installation. Edit 
 
 #Result
 The ORB-SLAM2 localization result in KITTI05 is
-![](pic/orb.png)
+![image](pic/orb.png)
 
 The ULNC-SLAM localization result in KITTI05 is
-![](pic/ulnc.png)
+![image](pic/ulnc.png)
