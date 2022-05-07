@@ -4,7 +4,7 @@
 ULNC-SLAM is an abbreviation of Unsupervised Learning Network with Confidence SLAM. In this work, we present a laser-assisted unsuper-vised visual network to extract feature for SLAM. Building on a previous work which can complete and predict dense depth and confidence, we feed RGB frames and confidence maps into our network to generate feature points that have value and can utilize reliable information from the laser. We partially modified [ORB-SLAM2], (https://github.com/raulmur/ORB_SLAM2) to obtain a more accurate and robust SLAM system. Also, our system can be easily extended to monocular or stereo SLAM.
 
 ## Example
-Performance UNLC features:
+Performance ULNC features:
 
 ![image](pic/ulnc.gif)
 
@@ -14,7 +14,7 @@ Performance UNLC features:
 We use the new thread and chrono functionalities of C++14.
 
 ## Pytorch
-We use [Pytorch](https://github.com/pytorch/pytorch) C++ api(libtorch) for deloying the UNLC. 
+We use [Pytorch](https://github.com/pytorch/pytorch) C++ api(libtorch) for deloying the ULNC. 
 
 ## Pangolin
 We use [Pangolin](https://github.com/stevenlovegrove/Pangolin) for visualization and user interface. Dowload and install instructions can be found at: https://github.com/stevenlovegrove/Pangolin.
@@ -58,7 +58,7 @@ RPE in Meters for KITTI 05 is:
   Configuration | max  | mean | median | min | rmse | sse | std
  --------------- | ----- | ------  | ------ | ------ | ------ | ------ | ------
  ORB-SLAM2  | 10.885378 | 0.107923 | 0.081827 | 0.003509 | 0.352939 | 134.779983 | 0.336033 
- UNLC-SLAM  | 5.864444 | 0.059092 | 0.035320 | 0.002328 | 0.202411 | 74.852742 | 0.193593   
+ ULNC-SLAM  | 5.864444 | 0.059092 | 0.035320 | 0.002328 | 0.202411 | 74.852742 | 0.193593   
 
 # Dataset
 
