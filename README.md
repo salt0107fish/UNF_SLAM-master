@@ -68,4 +68,4 @@ The basic framework of UNF-SLAM comes from [ORB-SLAM2]. (https://github.com/raul
 
 # Acknowledgment
 
-I would like to thank the reference workers I mentioned above, and I want to thank Jiaru Zhong for the spiritual support.
+I would like to thank the reference workers I mentioned above, and I want to thank Jiaru Zhong for his help for experiments and spiritual support.
